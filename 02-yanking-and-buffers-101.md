@@ -26,13 +26,14 @@ Paste from file below `:r somejs.js` (tab completion should work).
 ** Registers **
 ***************
 
-VIM does not have clipboard, VIM has registers.
+VIM does not have clipboard, VIM has registers. Registers is a clipboard on steroids.
 
 To yank something in different register start command with `"<char>` with char being the register name.
 
 Then use `"<char>p` to paste that register out.
 
-- List registers with just `"`
+- default register is `"`, so `""` is kinda explicit
+- List registers with just `"` (nvchad has a plugin for this), `:req <char>` shows you the contents in not nvchad config.
 - `"_` is a black hole register
 - learn how to use one additional register, the default and your favourite key, this way you can easily copy-paste on steroids
 - number registers contains history
@@ -65,7 +66,7 @@ Endless possibilities!
 
 Repeating is the reason why VIM has relative line numbers. With relative line numbers, it's easy to see how far you have to go with repeats.
 
-`.` is a cool repeat. It just repeats the last thing you did. Write something and repeat. You can repeat pretty much anything, but not movements.
+`.` is a cool repeat. It just repeats the last thing you did. Write something and repeat. You can repeat pretty much anything, but not bare movements.
 
 Of yourse you can number repeat with dot.
 
