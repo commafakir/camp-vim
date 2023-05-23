@@ -1,4 +1,6 @@
-** Movement **
+********************************
+** Movement                   **
+********************************
 
 VIM is a modal editor.
 
@@ -29,8 +31,9 @@ Pressing arrow keys or hjkl is laborous.
 
 NOW MESS AROUND. Select a word with your eye and then try to reach it with cursor.
 
-
+********************************
 ** Actually writing some text **
+********************************
 
 With `i` you enter INSERT mode. In INSERT mode you literally have notepad.
 
