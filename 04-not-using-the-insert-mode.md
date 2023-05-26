@@ -30,7 +30,8 @@ You can apply something to a certain range with `:9,14d` (delete lines from 9-14
 // Indent one line with >> and <<
 console.log("Hello")
 
-// Indent blocks with >% and <%
+// Indent blocks with >% and <%, but I don't understand how to use that :D
+// `>>` and `<<` are the standard indentation keys
 // Check ==, it works suprisingly well (like `4==`)
 const fun = () => {
 console.log("Fix my indentation");

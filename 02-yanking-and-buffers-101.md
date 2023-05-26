@@ -36,11 +36,11 @@ Then use `"<char>p` to paste that register out.
 - List registers with just `"` (nvchad has a plugin for this, so it works with that), `:req <char>` shows you the contents in not nvchad config.
 - `"_` is a black hole register which does not get stored
 - learn how to use one additional register, the default and your favourite key, this way you can easily copy-paste on steroids
-- number registers contains history
+- number registers contains history of yanks. Have you ever copied something that got lost?
 
 You can basically do for an example your own snippet collection with registers (there are better ways for snippets though).
 
-Yank this into `f` and then you can paste new functions.
+Yank this into `f` and then you can paste new functions with `"fp`.
 
 const x = () => {}
 
