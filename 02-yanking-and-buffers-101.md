@@ -18,7 +18,7 @@ Now we start to approach the real power of VIM. `dd` or `yy` is not the only thi
 
 Try `yw` or `dw` for an example! You can tie commands together in millions of ways! `d$` and `d^`.
 
-Task: (Yank everything inside parenthesis) and leave this out. `f<char>` is probably the easiest movement.
+Task: (Yank everything inside parenthesis) and leave this out. `t<char>` is probably the easiest movement.
 
 Paste from file below `:r somejs.js` (tab completion should work).
 
@@ -33,8 +33,8 @@ To yank something in different register start command with `"<char>` with char b
 Then use `"<char>p` to paste that register out.
 
 - default register is `"`, so `""` is kinda explicit
-- List registers with just `"` (nvchad has a plugin for this), `:req <char>` shows you the contents in not nvchad config.
-- `"_` is a black hole register
+- List registers with just `"` (nvchad has a plugin for this, so it works with that), `:req <char>` shows you the contents in not nvchad config.
+- `"_` is a black hole register which does not get stored
 - learn how to use one additional register, the default and your favourite key, this way you can easily copy-paste on steroids
 - number registers contains history
 

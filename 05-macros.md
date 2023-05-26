@@ -40,7 +40,7 @@ console.log("hello")
 console.log("hello")
 ```
 
-Hot damn! That clojure jeebie forgot to add commas in the array. Fix it with macro or regex.
+Hot damn! That clojure jeebie forgot to add commas in the array. Fix it with macro or regex. (`e` jumps to END of word...)
 
 ```js
 const values = [1 2 3 4 5 6 7 8 9 10 12 13 14 15 16];

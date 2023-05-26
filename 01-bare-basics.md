@@ -13,7 +13,7 @@ When you see NORMAL in bottom left corner, you are in NORMAL mode.
 
 In NORMAL mode colon : is an important key. 
 
-Press : and write 15 - your cursor should go to this line. Get it? The easiest way to jump to a certain line.
+Press : and write 16 - your cursor should go to this line. Get it? The easiest way to jump to a certain line.
 
 You can do lot's of things in NORMAL mode with :
 
@@ -22,12 +22,13 @@ Try:
 :help (:q to exit)
 :!ls -la (hot damn! Shell commands!)
 
-Pressing arrow keys or hjkl is laborous.
+Pressing arrow keys or hjkl is laborous. You actually want to use jumps.
 
-- Jump faster down with ctl+d and up ctrl+u
-- w jumps word and W (shift+w) jumps WORD, in normal text they work quite the same but really differently with code
-- b and B jumps word and WORD backwards
+- Jump faster down with ctl+d and up ctrl+u (mnemonic, down/up)
+- `w` jumps word and `W` (shift+w) jumps WORD, in normal text they work quite the same but really differently with code
+- `b` and `B` jumps word and WORD backwards
 - for advanced players, test `f+<char>` and `F+<char>` (jump to next/prev <char>) 
+- Test the difference with `t+<char>` and `T+<char>`
 
 NOW MESS AROUND. Select a word with your eye and then try to reach it with cursor.
 
@@ -53,6 +54,6 @@ In NeoVim crtl+s saves the document. If you mess something up, delete lines by a
 
 Of course `:w` saves (writes) the document as well as in normal vim.
 
-
+If you mess something up, press `u` as it is undo. `R` is redo.
 
 
