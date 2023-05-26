@@ -51,7 +51,7 @@ Now try to use jumping and switching to INSERT mode and back to NORMAL mode.
 
 In NeoVim crtl+s saves the document. If you mess something up, delete lines by accident of whatever, just save the document and `:!git checkout -- .`
 
-Of course `:w` saves (writes) the document as well.
+Of course `:w` saves (writes) the document as well as in normal vim.
 
 
 
